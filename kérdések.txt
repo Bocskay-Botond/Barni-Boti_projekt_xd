@@ -1,0 +1,24 @@
+kérdések:
+1.
+mikor kezdődött a második világháború? 
+(radio)
+2.
+Melyik két nagy hatalmi csoport között zajlott a háború?
+(radio)
+3.
+Válasz az alábiak közül:
+ A német szövetségi rendszerhez tartozó államok elnevezésére milyen nevet alkalmaztak?(számát írd be)
+	1. Szovjetunió
+	2. tengelyhatalmak
+	3.szövetségesek
+(number)
+4.
+Hányad részét vették el Magyarországból a trianoni békediktátum miatt?(tört szám)
+(válasz: 66,6)
+(number)
+5.
+Ki volt a tengelyhatalmak vezetője?
+-Hitler
+-Franklin D. Roosevelt
+-Winston Churchill
+(select)
