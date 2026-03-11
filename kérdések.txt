@@ -22,3 +22,39 @@ Ki volt a tengelyhatalmak vezetője?
 -Franklin D. Roosevelt
 -Winston Churchill
 (select)
+6.
+Hány fő volt összesen a szövetségesek részéről elszenvedett halálok száma összesen?
+-több mint 12 millió
+-több mint 61 millió
+-több mint 8 millió
+-több mint 45 millió
+(select)
+7.
+Lenin halála után ki vette át a hatalmat?
+-Sztálin
+-Hitler
+-Fidesz
+(slect)
+8.
+Mikor kezdődött a téli háború?
+-1939
+-1929
+-1960
+-2010
+(select)
+9.
+Mikor hagyta jóvá a fegyver- és hadianyaggyártás új programját Németország?
+-1950
+-1942
+-2026
+-1945
+(select)
+10.
+Meyik a kedvenc szined?(Nincs jó válasz :))
+-kék
+-Vörös
+-Rózsaszín
+(select)
+x.
+Mai dátum:
+(date)
