@@ -8,6 +8,7 @@ let valasz7 = document.getElementById("valasz7")
 let valasz8 = document.getElementById("valasz8")
 let valasz9 = document.getElementById("valasz9")
 let valasz10 = document.getElementById("valasz10")
+let valasz11 = document.getElementById("valasz+1")
 
 function ellenorzes() {
     
