@@ -72,7 +72,7 @@ function ellenorzes_kerdes_10() {
     return 0
 }
 function ellenorzes_kerdes_plusz() {
-    if (valasz11 == getDate()) {
+    if (valasz11 == 18) {
         return 1
     }
     return 0
@@ -92,6 +92,6 @@ function vegso_ellenorzes() {
     összespont += ellenorzes_kerdes_9();
     összespont += ellenorzes_kerdes_10();
     összespont += ellenorzes_kerdes_plusz();
-    kiiras.innerHTML ="Ügyi vagy. Kész a teszt! Pontszámod: "+ összespont +"/10";
+    kiiras.innerHTML ="Ügyi vagy. Kész a teszt! Pontszámod: "+ összespont +"/11";
 }
 document.getElementById("kiertekel").addEventListener("click", vegso_ellenorzes);
