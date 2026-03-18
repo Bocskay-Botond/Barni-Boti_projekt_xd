@@ -30,7 +30,7 @@ function ellenorzes_kerdes_3(params) {
     return 0;
 }
 function ellenorzes_kerdes_4() {
-    if (valasz4.value === "66.66") {
+    if (valasz4.value === "66.67") {
         return 1;
     }
     return 0;
@@ -72,7 +72,7 @@ function ellenorzes_kerdes_10() {
     return 0
 }
 function ellenorzes_kerdes_plusz() {
-    if (valasz11 == 18) {
+    if (valasz11.value == 18) {
         return 1
     }
     return 0
