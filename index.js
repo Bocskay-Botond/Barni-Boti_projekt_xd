@@ -3,11 +3,11 @@ let valasz2 = document.getElementById("2.2_válasz")
 let valasz3 = document.getElementById("3_válasz")
 let valasz4 = document.getElementById("4_válasz")
 let valasz5 = document.getElementById("5_válasz")
-let valasz6 = document.querySelector("#valasz6 option:checked")
-let valasz7 = document.querySelector("#valasz7 option:checked")
-let valasz8 = document.querySelector("#valasz8 option:checked")//ezek nem lesznek jók mrt ha az elején ellenörzöd nm fogja sztm figyelembe venni h a kitöltő mit választ... 
-let valasz9 = document.querySelector("#valasz9 option:checked")
-let valasz10 = document.querySelector("#valasz10 option:checked")
+let valasz6 = document.getElementById("valasz6")
+let valasz7 = document.getElementById("valasz7")
+let valasz8 = document.getElementById("valasz8")//ezek nem lesznek jók mrt ha az elején ellenörzöd nm fogja sztm figyelembe venni h a kitöltő mit választ... 
+let valasz9 = document.getElementById("valasz9")
+let valasz10 = document.getElementById("valasz10")
 let valasz11 = document.getElementById("valasz+1")
 let kiiras = document.getElementById("kiiras")
 
@@ -41,7 +41,42 @@ function ellenorzes_kerdes_5(params) {
     }
     return 0;
 }
-
+function ellenorzes_kerdes_6() {
+    if (valasz6.value == "45") {
+        return 1
+    }
+    return 0
+}
+function ellenorzes_kerdes_7() {
+    if (valasz7.value == "sztalin") {
+        return 1
+    }
+    return 0
+}
+function ellenorzes_kerdes_8() {
+    if (valasz8.value == "1939") {
+        return 1
+    }
+    return 0
+}
+function ellenorzes_kerdes_9() {
+    if (valasz9.value == "1942") {
+        return 1
+    }
+    return 0
+}
+function ellenorzes_kerdes_10() {
+    if (valasz10.value == "lila") {
+        return 1
+    }
+    return 0
+}
+function ellenorzes_kerdes_plusz() {
+    if (valasz11 == getDate()) {
+        return 1
+    }
+    return 0
+}
 
 
 function vegso_ellenorzes() {
