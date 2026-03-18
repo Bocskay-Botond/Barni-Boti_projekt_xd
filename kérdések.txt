@@ -50,7 +50,7 @@ Mikor hagyta jóvá a fegyver- és hadianyaggyártás új programját Németorsz
 -1945
 (select)
 10.
-Meyik a kedvenc szined?(Nincs jó válasz :))
+Meyik a kedvenc szined?(Nincs jó válasz :)
 -kék
 -Vörös
 -Rózsaszín
