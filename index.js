@@ -77,7 +77,7 @@ function ellenorzes_kerdes_plusz() {
     }
     return 0
 }
-
+// 676767676
 
 function vegso_ellenorzes() {
     let összespont =0;
