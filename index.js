@@ -1,7 +1,7 @@
 let valasz1 = document.getElementById("1.2_válasz")
 let valasz2 = document.getElementById("2.2_válasz")
-let valasz3 = document.getElementById("valasz3")
-let valasz4 = document.getElementById("valasz4")
+let valasz3 = document.getElementById("3_válasz").value
+let valasz4 = document.getElementById("4_válasz").value
 let valasz5 = document.getElementById("valasz5")
 let valasz6 = document.getElementById("valasz6")
 let valasz7 = document.getElementById("valasz7")
@@ -23,7 +23,17 @@ function ellenorzes_kerdes_2() {
     return 0;
 }
 function ellenorzes_kerdes_3(params) {
-    
+    if (valasz3 === "2") {
+        return 1
+    }
+    return 0;
 }
+function ellenorzes_kerdes_4() {
+    if (valasz4 === "66.66") {
+        return 1;
+    }
+    return 0;
+}
+
 
 document.getElementById("kiertekel").addEventListener("click", ellenorzes)
