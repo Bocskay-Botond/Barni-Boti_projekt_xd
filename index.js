@@ -2,12 +2,12 @@ let valasz1 = document.getElementById("1.2_válasz")
 let valasz2 = document.getElementById("2.2_válasz")
 let valasz3 = document.getElementById("3_válasz").value
 let valasz4 = document.getElementById("4_válasz").value
-let valasz5 = document.getElementById("5_válasz").value
-let valasz6 = document.getElementById("valasz6")
-let valasz7 = document.getElementById("valasz7")
-let valasz8 = document.getElementById("valasz8")
-let valasz9 = document.getElementById("valasz9")
-let valasz10 = document.getElementById("valasz10")
+let valasz5 = document.getElementById("valasz5")
+let valasz6 = document.querySelector("#valasz6 option:checked")
+let valasz7 = document.querySelector("#valasz7 option:checked")
+let valasz8 = document.querySelector("#valasz8 option:checked")
+let valasz9 = document.querySelector("#valasz9 option:checked")
+let valasz10 = document.querySelector("#valasz10 option:checked")
 let valasz11 = document.getElementById("valasz+1")
 
 function ellenorzes_kerdes_1() {
