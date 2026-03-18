@@ -59,4 +59,4 @@ function vegso_ellenorzes() {
     összespont += ellenorzes_kerdes_plusz();
     kiiras.innerHTML ="Ügyi vagy. Kész a teszt! Pontszámod: "+ összespont +"/10";
 }
-document.getElementById("kiertekel").addEventListener("click", vegso_ellenorzes);
+document.getElementById("kiertekel").addEventListener("click", ellenorzes)
