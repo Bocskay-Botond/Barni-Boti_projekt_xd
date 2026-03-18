@@ -5,7 +5,7 @@ let valasz4 = document.getElementById("4_válasz")
 let valasz5 = document.getElementById("5_válasz")
 let valasz6 = document.getElementById("valasz6")
 let valasz7 = document.getElementById("valasz7")
-let valasz8 = document.getElementById("valasz8")//ezek nem lesznek jók mrt ha az elején ellenörzöd nm fogja sztm figyelembe venni h a kitöltő mit választ... 
+let valasz8 = document.getElementById("valasz8")
 let valasz9 = document.getElementById("valasz9")
 let valasz10 = document.getElementById("valasz10")
 let valasz11 = document.getElementById("valasz+1")
@@ -30,7 +30,7 @@ function ellenorzes_kerdes_3(params) {
     return 0;
 }
 function ellenorzes_kerdes_4() {
-    if (valasz4.value === "66.66") {
+    if (valasz4.value === "66.67") {
         return 1;
     }
     return 0;
@@ -72,7 +72,7 @@ function ellenorzes_kerdes_10() {
     return 0
 }
 function ellenorzes_kerdes_plusz() {
-    if (valasz11 == 18) {
+    if (valasz11.value == 18) {
         return 1
     }
     return 0
