@@ -9,6 +9,7 @@ let valasz8 = document.querySelector("#valasz8 option:checked")
 let valasz9 = document.querySelector("#valasz9 option:checked")
 let valasz10 = document.querySelector("#valasz10 option:checked")
 let valasz11 = document.getElementById("valasz+1")
+let kiiras = document.getElementById("kiiras")
 
 function ellenorzes_kerdes_1() {
     if (valasz1.checked) {
@@ -41,21 +42,21 @@ function ellenorzes_kerdes_5(params) {
     return 0;
 }
 
-document.getElementById("kiertekel").addEventListener("click", ellenorzes)
+
 
 function vegso_ellenorzes() {
     let összespont =0;
-    összespont = ellenorzes_kerdes_1 
-    összespont = ellenorzes_kerdes_1
-    összespont = ellenorzes_kerdes_1
-    összespont = ellenorzes_kerdes_1
-    összespont = ellenorzes_kerdes_1
-    összespont = ellenorzes_kerdes_1
-    összespont = ellenorzes_kerdes_1
-    összespont = ellenorzes_kerdes_1
-    összespont = ellenorzes_kerdes_1
-    összespont = ellenorzes_kerdes_1
-    összespont = ellenorzes_kerdes_1
-    összespont = ellenorzes_kerdes_1
-
+    összespont += ellenorzes_kerdes_1 
+    összespont += ellenorzes_kerdes_2
+    összespont += ellenorzes_kerdes_3
+    összespont += ellenorzes_kerdes_4
+    összespont += ellenorzes_kerdes_5
+    összespont += ellenorzes_kerdes_6
+    összespont += ellenorzes_kerdes_7
+    összespont += ellenorzes_kerdes_8
+    összespont += ellenorzes_kerdes_9
+    összespont += ellenorzes_kerdes_10
+    összespont += ellenorzes_kerdes_plusz
+    kiiras.innerHTML("Ügyi vagy. Kész a teszt! Pontszámod: "+ összespont +"/10")
 }
+document.getElementById("kiertekel").addEventListener("click", ellenorzes)
