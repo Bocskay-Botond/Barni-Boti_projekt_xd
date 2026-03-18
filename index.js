@@ -35,5 +35,13 @@ function ellenorzes_kerdes_4() {
     return 0;
 }
 
-
-document.getElementById("kiertekel").addEventListener("click", ellenorzes)
+function ellenorzes_kerdes_6() {
+    if(valasz6.value == "Több mint 45 millió") {
+        console.log('asd')
+    }
+    return 0
+}
+function ellenorzes_kerdes_7() {
+    if (valasz7.value == 1) {}
+}
+document.getElementById("kiertekel").addEventListener("click", ellenorzes_kerdes_6)
